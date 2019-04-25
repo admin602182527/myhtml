@@ -1,0 +1,218 @@
+body,
+			html {
+				/* padding-top: 1px; */
+				margin: 0;
+				height: 100%;
+				width: 100%;
+				overflow-y: scroll;
+				background-color: #EAEAEA;
+				padding-bottom: 1.306666rem;
+			}
+
+			.box {
+				width: 9.6rem;
+				height: 4.8rem;
+				margin: 0.2rem 0.2rem 0 0.2rem;
+				/* box-sizing:content-box; */
+			}
+
+			.card {
+				background-image: url(../img/parkcard_bg.png);
+				background-size: 100% 100%;
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+
+			.card .adress {
+				position: absolute;
+				top: 0.266666rem;
+				left: 0.266666rem;
+				color: #FFFFFF;
+				font-size: 0.4rem;
+			}
+
+			.tx {
+				color: #FFFFFF;
+				font-size: 0.4rem;
+			}
+
+			.card .adress {
+				position: absolute;
+				top: 0.266666rem;
+				left: 0.3rem;
+			}
+
+			.card .day {
+				position: absolute;
+				top: 0.266666rem;
+				right: 0.266666rem;
+			}
+
+			.card .carnumber {
+				background-image: url(../img/carnumber.png);
+				background-size: 100% 100%;
+				width: 2.933333rem;
+				height: 0.693333rem;
+				position: absolute;
+				top: 1rem;
+				left: 0.3rem;
+				line-height: 0.693333rem;
+				text-align: center;
+				letter-spacing: 0.1rem;
+				font-size: 0.36rem;
+				color: #FFFFFF;
+			}
+
+			.card .carnumber span {
+				width: 100%;
+			}
+
+			.card .bot {
+				width: 100%;
+			}
+
+			.bot {
+				height: 1.306666rem;
+				position: absolute;
+				bottom: 0;
+				line-height: 1.306666rem;
+				color: #959595;
+				font-size: 0.36rem;
+			}
+
+			.bot img:nth-child(1) {
+				width: 1.173333rem;
+				vertical-align: middle;
+			}
+
+			.attct img:nth-child(1) {
+				/* display: inline-block; */
+				width: 2.8rem;
+				vertical-align: middle;
+				float: right;
+				margin: 0.18rem;
+			}
+			
+
+			.footer {
+				width: 100%;
+				height: 1.306666rem;
+				position: fixed;
+				font-size: 0.4rem;
+				bottom: 0;
+				box-sizing: border-box;
+			
+			}
+
+			.option {
+				width: 50%;
+				height: 100%;
+				display: inline-block;
+				float: left;
+				line-height: 1.306666rem;
+				text-align: center;
+			}
+
+			.option img {
+				width: 0.5rem;
+				vertical-align: middle;
+				margin-right: 0.133333rem;
+			}
+
+			.option1 {
+				background-color: #FFFFFF;
+				color: #959595;
+			}
+
+			.option2 {
+				background-color: #3d89e4;
+				color: #FFFFFF;
+			}
+			.monthcard {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: none;
+			}
+			.monthcard>img {
+				position:absolute;
+				bottom: 3rem;
+				width: 0.88rem;
+				left: 4.5rem;
+			}
+			
+			
+			.explain {
+				border-radius: 0.133333rem;
+				position: absolute;
+				width: 8rem;
+				top: calc(40% - 3.066666rem);
+				left: calc(50% - 4rem);
+				background-color: #FFFFFF;
+				text-align: center;
+				color: #666666;
+			}
+			
+			.explain p {
+				display: inline-block;
+				width: 7.2rem;
+				height: 6.6rem;
+				text-align: center;
+				font-size: 0.373333rem;
+				text-indent: 0.8rem;
+				line-height: 0.56rem;
+				overflow-y:scroll;
+				margin: 0 0 0.233333rem 0;
+			}
+
+			.layer {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				display: none;
+				
+			}
+
+			.content {
+				border-radius: 0.133333rem;
+				position: absolute;
+				height: 6.133333rem;
+				width: 8rem;
+				top: calc(36% - 3.066666rem);
+				left: calc(50% - 4rem);
+				background-color: #FFFFFF;
+				text-align: center;
+				color: #333333;
+				
+			}
+			
+			.content img:nth-of-type(1) {
+				width: 2.6rem;
+				display: block;
+				margin: 0.5rem auto 0;
+				
+			}
+			
+			.content img:nth-of-type(2){
+				width: 2.8rem;
+				margin-top: 0.8rem;
+				margin-right: 0.266666rem;
+				
+			}
+			
+			.content img:nth-of-type(3){
+				width: 2.8rem;
+				margin-top: 0.8rem;
+				margin-left: 0.266666rem;
+				
+			}
+			
+
+			
+			
+			

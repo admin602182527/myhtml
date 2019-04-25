@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title>我的停车卡</title>
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="card">
+				<span class="adress tx">左岸官邸</span>
+				<div class="carnumber">
+					<span>浙A000000</span>
+				</div>
+				<span class="day tx">剩余天数:30天</span>
+				<div class="bot">
+					<img src="img/delete.png" onclick="showDel()">
+					<span>有效期至：2018-05-22</span>
+					<a class="attct" href="renew.html">
+						<img src="img/renew.png">
+					</a>
+				</div>
+			</div>
+		</div>
+			<div class="box">
+			<div class="card">
+				<span class="adress tx">左岸官邸</span>
+				<div class="carnumber">
+					<span>浙A000000</span>
+				</div>
+				<span class="day tx">剩余天数:30天</span>
+				<div class="bot">
+					<img src="img/delete.png" onclick="showDel()">
+					<span>有效期至：2018-05-22</span>
+					<a class="attct" href="renew.html">
+						<img src="img/renew.png">
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="footer">
+			<div class="option option1 " onclick="monthCard()" >
+				<img src="img/card_explain.png">
+				月卡说明
+			</div>
+			<a href="">
+				<div class="option2 option">
+					<img src="img/add_card.png">
+					添加月卡
+				</div>
+			</a>
+			
+		</div>
+		<!-- 月卡弹出层 -->
+		<div class="monthcard ">
+			<div class="explain">
+				<h2>月卡说明</h2>
+				<p>一类区域：工作日首半小时3元，首半小时后至首三小时内每半小时6元;三小时后每半小时10元;非工作日首半小时1.2元，首半小时后至首三小时每半小时2.4元，三小时后每半小时4元(一类区域包括罗湖、福田、南山、前海等的核心区域，以及宝安、龙岗、龙华、布吉等的核心区域)。
+					<br>二类区域：工作日首半小时1.8元，首半小时后至首三小时每半小时3.6元，三小时后每半小时6元;非工作日首半小时0.9元，首半小时后至首三小时每半小时1.5元，三小时后每半小时2.5元(二类区域包括原特区内除一类区外的区域，以及福永、沙井、光明、观澜、横岗、坪山等的核心区域)。
+				</p>
+				
+			</div>
+			<img class="quit" src="img/closed.png" onclick="quit">
+		</div>
+		
+      <!-- 删除弹出层 -->
+		<div class="layer">
+			<div class="content">
+				<h2>确定删除当前月卡</h2>
+				<img src="img/trash.png" >
+				<img class="cancle" src="img/cancle.png"  onclick="cancle">
+				<img src="img/card_confirm.png" >
+				
+			</div>
+		</div>
+
+	</body>
+	<!-- 引入的jquery文件 -->
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function showDel(){
+			$(".layer").fadeIn();
+		}
+		$(".cancle").click(function(cancle){
+			$(".layer").fadeOut();
+		})
+		function monthCard(){
+			$(".monthcard").fadeIn();
+		}
+		$(".quit").click(function(quit){
+			$(".monthcard").fadeOut();
+		})
+		
+	</script>
+</html>

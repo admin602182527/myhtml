@@ -1,0 +1,72 @@
+body,
+			html {
+				/* padding-top: 1px; */
+				margin: 0;
+				height: 100%;
+				width: 100%;
+				overflow-y: scroll;
+				background-color: #EAEAEA;
+				padding-bottom: 1.306666rem;
+			}
+
+
+
+			.money {
+				width: 9rem;
+				height: 100%;
+				padding-top: 0.266666rem;
+				margin: 0 auto;
+				
+			}
+			.money_pitch {
+				width:4.266666rem;
+				height: 1.6rem;
+				margin: 0.09rem;
+				background-color: #cee4ff;
+				border:#62a5f5 1px solid;
+				
+			}
+			
+			.money_bg {
+				width:4.266666rem;
+				height: 1.6rem;
+				margin: 0.06rem;
+				background-color: #FFFFFF;
+				border:#d6d6d6 1px solid;
+			}
+			
+			.money_month {
+				float: left;
+				display: inline-block;
+				
+				text-align: center;
+				position: relative;
+			}
+			
+			.list1 {
+				font-size: 0.373333rem;
+				position: absolute;
+				top: 0.106666rem;
+				left: 0.133333rem;
+			}
+			
+			.list2 {
+				font-size: 0.586666rem;
+				line-height: 1.8rem;
+				
+			}
+			.top_up {
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+				margin-top: 3.2rem;
+				padding-bottom: 1.6rem;
+
+			}
+			
+			.top_up>img {
+				width: 8.533333rem;
+				height: 1.306666rem;
+				
+				
+			}
